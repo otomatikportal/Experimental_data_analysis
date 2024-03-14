@@ -1,0 +1,4 @@
+principle component analysis!! önemli
+YÖK tezlerini incele
+feature selection techniques
+pseudocode
