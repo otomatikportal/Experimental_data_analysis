@@ -4,6 +4,11 @@ from IPython.display import display
 import sklearn
 from sklearn.preprocessing import MinMaxScaler
 from statsmodels.tsa.stattools import grangercausalitytests
+from scipy import signal
+from scipy.stats import pearsonr
+from preprocess_funcs import prpcss
+import matplotlib.pyplot as plt
+
 
 
 gdpdf = pd.read_csv('Raw_Data\Economical\GDP (CurrentUSD)\gpd_data_incurrentUSD.csv')
@@ -17,8 +22,8 @@ co2ktdf.columns = col_names
 
 lawindex = pd.read_csv('Raw_Data\Legal\Rule of Law Index\Law_Index.csv')
 lawindex = lawindex.drop(['Country Name','Indicator Name','Indicator Code'], axis=1)
-print(lawindex)
 
+""""
 #Function to select and interpolate data
 def preprocess1(df, country, yeartostart):
     df = df.loc[df['Country Code'] == country, yeartostart:]
@@ -40,25 +45,43 @@ gdpinterpolated = preprocess1(gdpdf, 'USA', '2000')
 gdpscaled = preprocess2(gdpinterpolated)
 print(gdpscaled)
 
-from scipy import signal
+gdpdetrended = signal.detrend(gdpscaled, type='linear')
+print(gdpdetrended)
 
-detrended = signal.detrend(gdpscaled, type='linear')
-print(detrended)
+gdpdetrended = (gdpdetrended - gdpdetrended.min()) / (gdpdetrended.max() - gdpdetrended.min())
 
-detrended = (detrended - detrended.min()) / (detrended.max() - detrended.min())
+gdpdetrended = gdpdetrended.flatten()
+lawscaled = lawscaled.flatten()
+
+corr, _ = pearsonr(gdpdetrended, lawscaled)
+print('Pearsons correlation: %.3f' % corr)
 
 import matplotlib.pyplot as plt
-plt.plot(detrended)
-plt.plot(gdpscaled)
+
+plt.plot(gdpdetrended, label='Detrended GDP')
+plt.plot(lawscaled, label='Law Index')
 plt.xlabel('Time')
 plt.ylabel('Detrended GDP')
-plt.title('Detrended GDP over Time')
+plt.title(f'normalised gdp and law index (pearson r value{corr:.3f})')
+plt.legend()
 plt.show()
-
-
 
 # combined2darray = np.vstack((lawscaled, gdpscaled)).T
 # gc_res = grangercausalitytests(combined2darray, 2)
 # print(gc_res)
 
 # Can't conduct granger causality test due to insufficient observations!
+"""
+gdpusa   = prpcss(gdpdf, 'USA', '2000')
+lawusa   = prpcss(lawindex, 'USA', '2000')
+co2ktusa = prpcss(co2ktdf, 'USA', '2000')
+
+plt.plot(gdpusa, label='GDP')
+plt.plot(lawusa, label='Law Index')
+plt.plot(co2ktusa, label='CO2 Emissions')
+plt.xlabel('Time')
+plt.ylabel('Values')
+plt.title('GDP, Law Index, and CO2 Emissions')
+plt.legend()
+plt.show()
+
