@@ -1,0 +1,80 @@
+Results for Table 1:
+High-income countries vs. Low-income countries: t-statistic = 0.0399084222930555, p-value = 0.9683420080781588
+High-income countries vs. Lower-middle-income countries: t-statistic = 1.5354933920282128, p-value = 0.12817860959312075
+High-income countries vs. Upper-middle-income countries: t-statistic = -2.6983049289150505, p-value = 0.008555777420043702
+Low-income countries vs. Lower-middle-income countries: t-statistic = 1.2719256560061656, p-value = 0.20918554147038468
+Low-income countries vs. Upper-middle-income countries: t-statistic = -2.413485531331186, p-value = 0.018951968017235782
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = -3.9170673685365167, p-value = 0.00017898357860945832
+
+Results for Table 2:
+High-income countries vs. Low-income countries: t-statistic = 0.3595048572659169, p-value = 0.7212296946006806
+High-income countries vs. Lower-middle-income countries: t-statistic = 0.8669788859201331, p-value = 0.38839658095574725
+High-income countries vs. Upper-middle-income countries: t-statistic = -0.019070924541003183, p-value = 0.9848312920613119
+Low-income countries vs. Lower-middle-income countries: t-statistic = 0.24075259640115487, p-value = 0.8111518655243994
+Low-income countries vs. Upper-middle-income countries: t-statistic = -0.3775078521272504, p-value = 0.7079886594323905
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = -0.9102000864137278, p-value = 0.365094878230121
+
+Results for Table 3:
+High-income countries vs. Low-income countries: t-statistic = 1.5452582590742436, p-value = 0.1300892415493903
+High-income countries vs. Lower-middle-income countries: t-statistic = 1.4414698481067405, p-value = 0.1531677159042535
+High-income countries vs. Upper-middle-income countries: t-statistic = 3.1043817258942323, p-value = 0.0026737825479918502
+Low-income countries vs. Lower-middle-income countries: t-statistic = -0.3797308153664056, p-value = 0.7061510741498873
+Low-income countries vs. Upper-middle-income countries: t-statistic = 0.9516317304369614, p-value = 0.34730217768069704
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = 1.6672868601133375, p-value = 0.09906884255185781
+
+Results for Table 4:
+High-income countries vs. Low-income countries: t-statistic = 1.1866207161913527, p-value = 0.243923095462488
+High-income countries vs. Lower-middle-income countries: t-statistic = 0.26297882994467625, p-value = 0.793171104874626
+High-income countries vs. Upper-middle-income countries: t-statistic = 1.5855894771200847, p-value = 0.11678003204821283
+Low-income countries vs. Lower-middle-income countries: t-statistic = -0.9570653866256531, p-value = 0.34448636083807527
+Low-income countries vs. Upper-middle-income countries: t-statistic = -0.07586408064728078, p-value = 0.9399213846643905
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = 1.20606611155119, p-value = 0.23084306260931042
+
+Results for Table 5:
+High-income countries vs. Low-income countries: t-statistic = -0.5136007805265473, p-value = 0.6096547878493165
+High-income countries vs. Lower-middle-income countries: t-statistic = 1.480299366408737, p-value = 0.1423617772999514
+High-income countries vs. Upper-middle-income countries: t-statistic = 0.1602637785147721, p-value = 0.8730684218969305
+Low-income countries vs. Lower-middle-income countries: t-statistic = 1.9302852701192246, p-value = 0.05860323823445105
+Low-income countries vs. Upper-middle-income countries: t-statistic = 0.6670227620776846, p-value = 0.507563249838714
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = -1.3199385440538605, p-value = 0.19009127527759845
+
+Results for Table 6:
+High-income countries vs. Low-income countries: t-statistic = -0.8458133233901918, p-value = 0.40366461656062425
+High-income countries vs. Lower-middle-income countries: t-statistic = -0.15646634207721405, p-value = 0.8760844720429488
+High-income countries vs. Upper-middle-income countries: t-statistic = 0.11388086805808924, p-value = 0.9096307315611577
+Low-income countries vs. Lower-middle-income countries: t-statistic = 0.7889567620863316, p-value = 0.4367479075235211
+Low-income countries vs. Upper-middle-income countries: t-statistic = 0.9389116382192989, p-value = 0.354862826345667
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = 0.2924132707633724, p-value = 0.7707280739668021
+
+Results for Table 7:
+High-income countries vs. Low-income countries: t-statistic = 0.9357504193874332, p-value = 0.35352678334294796
+High-income countries vs. Lower-middle-income countries: t-statistic = 0.5271847415844936, p-value = 0.5994292479750536
+High-income countries vs. Upper-middle-income countries: t-statistic = -0.024783342713566855, p-value = 0.9802879900528989
+Low-income countries vs. Lower-middle-income countries: t-statistic = -0.4633351630014675, p-value = 0.6449790076269061
+Low-income countries vs. Upper-middle-income countries: t-statistic = -0.9378207641473211, p-value = 0.35221816542176965
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = -0.5387658128189662, p-value = 0.5913871661057312
+
+Results for Table 8:
+High-income countries vs. Low-income countries: t-statistic = 1.2192324647009931, p-value = 0.23135211063199068
+High-income countries vs. Lower-middle-income countries: t-statistic = -2.359029218394709, p-value = 0.020592819257585396
+High-income countries vs. Upper-middle-income countries: t-statistic = 0.7443525508677237, p-value = 0.45893228235985073
+Low-income countries vs. Lower-middle-income countries: t-statistic = -2.876638522777947, p-value = 0.006739999450855727
+Low-income countries vs. Upper-middle-income countries: t-statistic = -0.6761425738137862, p-value = 0.5034425986364042
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = 3.0191139805361895, p-value = 0.0033319447581367126
+
+Results for Table 9:
+High-income countries vs. Low-income countries: t-statistic = -2.1101000118689943, p-value = 0.0406676217547387
+High-income countries vs. Lower-middle-income countries: t-statistic = -0.21576338926912114, p-value = 0.8297024341088048
+High-income countries vs. Upper-middle-income countries: t-statistic = -0.27326966191856694, p-value = 0.7853334277463437
+Low-income countries vs. Lower-middle-income countries: t-statistic = 2.041133125286046, p-value = 0.048113524108134326
+Low-income countries vs. Upper-middle-income countries: t-statistic = 1.8692019170471206, p-value = 0.068150541699367
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = -0.08073918476350928, p-value = 0.9358332760535826
+
+Results for Table 10:
+High-income countries vs. Low-income countries: t-statistic = 1.8943087474635123, p-value = 0.06584135283486803
+High-income countries vs. Lower-middle-income countries: t-statistic = -0.2559353768302622, p-value = 0.798612385583326
+High-income countries vs. Upper-middle-income countries: t-statistic = 0.4741102285667527, p-value = 0.6367857980029581
+Low-income countries vs. Lower-middle-income countries: t-statistic = -2.0443336436166946, p-value = 0.04721730811942139
+Low-income countries vs. Upper-middle-income countries: t-statistic = -1.4202928879336003, p-value = 0.16271886701735605
+Lower-middle-income countries vs. Upper-middle-income countries: t-statistic = 0.693863960105157, p-value = 0.4896630759707684
+
